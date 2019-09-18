@@ -1,0 +1,4 @@
+mysql -h x.x.x.x -u myusername -P myport -pMYPASSWORD MY_DB_NAME
+
+컴퓨터에 DBMS가 2개면 포트번호도 2개 필요. 3306 포트가 아닌 디비를 cmd창에서 접속할떄는 -P 뒤에 다른 포트번호 써줘야함
+나같은 경우는 3307로 설정되어있음, 설치할때 물어봄 3306은 이미 쓰고있으니 다른 포트를 쓰라고!
